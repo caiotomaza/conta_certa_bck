@@ -1,0 +1,33 @@
+{
+    "name": "conta-certa",
+    "description": "Sistema de gerenciamento financeiro pessoal.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Caio Tomaz",
+            "email": "caiotomaza@gmail.com",
+            "name": "Evellyn Santos",
+            "email": "evellynsantos17@gmail.com",
+            "name": "Gabriel Rezende",
+            "email": "gabrielrezcpessoa@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : 8.2,
+        "laravel/framework" : 11.9,
+        "laravel/tinker" : 2.9
+    },
+    "require-dev": {
+        "fakerphp/faker" : 1.23,
+        "laravel/pinta" : 1.13,
+        "laravel/vela" : 1.26,
+        "zombaria/zombaria" : 1.6,
+        "nunomaduro/colisão" : 8.0,
+        "phpunit/phpunit" : 11.0.1
+    },
+    "autoload": {
+        "psr-4": {
+            "Caio\\ContaCertaBck\\": "src/"
+        }
+    }
+}
