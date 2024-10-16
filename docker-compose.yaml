@@ -1,0 +1,19 @@
+# Para iniciar a aplicação use o comando no terminal: "docker compose up".
+
+services:
+  front-end:
+    container_name: front-end
+    image: httpd
+    ports: 
+      - "8080:80"
+      - "9090:90"
+  back-end:
+    container_name: back-end
+    image: bitnami/php-fpm
+    ports:
+      -
+  database:
+    container_name: database
+    image: mysql
+    environment: 
+      MYSQL_ROOT_PASSWORD: conta_certa
